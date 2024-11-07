@@ -1,0 +1,138 @@
+#shark {
+    left:100px;top: 400px;
+    position:relative;
+    animation-name: Shark;
+    animation-duration:24s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state:running;
+}
+#turtle {
+    left:99px;top: 400px;
+    position: absolute;
+    animation-name: turtle;
+    animation-duration:60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#diver1 {
+    left:80px;top: 400px;
+    position: absolute;
+    animation-name: diver1;
+    animation-duration:20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#diver2 {
+    left:70px;top: 400px;
+    position: absolute;
+    animation-name: diver2;
+    animation-duration:25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#diver3 {
+    left:50px;top: 400px;
+    position: absolute;
+    animation-name: diver3;
+    animation-duration:16s;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-iteration-count:infinite;
+    animation-play-state: running;
+}
+#fanintSchool {
+    left:120px;top: 400px;
+    position: absolute;
+    animation-name: faint;
+    animation-duration:30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+#goldFishShool {
+    left:130px;top: 400px;
+    position: absolute;
+    animation-name: goldFish;
+    animation-duration:35s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+
+
+
+@keyframes Shark {
+    0% {left: 100px;top: 400px;}
+    20%{left: 300px;top: 400px;}
+    40%{left: 500px;top: 300px;}
+    50%{left: 6000px;top: 50px;}
+    60%{left: 600px;top:100px;}
+    80%{left: 500px;top:200px;}
+    100%{left: 100px;top:400px;transform: scaleX(-1);}
+}
+@keyframes turtle {
+    0% {left: 100px;top: 400px;}
+    20%{left: 300px;top: 400px;}
+    40%{left: 500px;top: 300px;}
+    50%{left: 6000px;top: 50px;}
+    60%{left: 600px;top:100px;}
+    80%{left: 500px;top:200px;}
+    100%{left: 100px;top:400px;transform: scaleX(-1);}
+}
+@keyframes diver1 {
+    0% {left: 100px;top: 400px;}
+    20%{left: 300px;top: 400px;}
+    40%{left: 500px;top: 300px;}
+    50%{left: 6000px;top: 50px;}
+    60%{left: 600px;top:100px;}
+    80%{left: 500px;top:200px;}
+    100%{left: 100px;top:400px;transform: scaleX(-1);}
+}
+@keyframes diver2 {
+    0% {left: 100px;top: 400px;}
+    20%{left: 300px;top: 400px;}
+    40%{left: 500px;top: 300px;}
+    50%{left: 6000px;top: 50px;}
+    60%{left: 600px;top:100px;}
+    80%{left: 500px;top:200px;}
+    100%{left: 100px;top:400px;transform: scaleX(-1);}
+}
+@keyframes diver3 {
+    0% {left: 100px;top: 400px;}
+    20%{left: 300px;top: 400px;}
+    40%{left: 500px;top: 300px;}
+    50%{left: 6000px;top: 50px;}
+    60%{left: 600px;top:100px;}
+    80%{left: 500px;top:200px;}
+    100%{left: 100px;top:400px;transform: scaleX(-1);}
+}
+@keyframes faint {
+    0% {left: 100px;top: 400px;}
+    20%{left: 300px;top: 400px;}
+    40%{left: 500px;top: 300px;}
+    50%{left: 6000px;top: 50px;}
+    60%{left: 600px;top:100px;}
+    80%{left: 500px;top:200px;}
+    100%{left: 100px;top:400px;transform: scaleX(-1);}
+}
+@keyframes goldFish {
+    0% {left: 100px;top: 400px;}
+    20%{left: 300px;top: 400px;}
+    40%{left: 500px;top: 300px;}
+    50%{left: 6000px;top: 50px;}
+    60%{left: 600px;top:100px;}
+    80%{left: 500px;top:200px;}
+    100%{left: 100px;top:400px;transform: scaleX(-1);}
+}
+body, html {
+    margin: 0;
+    height: 100vh; 
+    background-image: url('https://img.freepik.com/premium-vector/sea-background-video-conferencing_23-2148621773.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

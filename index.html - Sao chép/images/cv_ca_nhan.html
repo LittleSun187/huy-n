@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cv Cá Nhân</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #cd9dd1;
+  padding: 50px;
+  text-align:center;
+  font-size: 30px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 400px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 50px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 400px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #e29ac2;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <img src="https://hcmue.edu.vn/images/Logo_Banner_SP/Logo-HCMUE---ENG-2.png" width="300px" height="50px"  >
+  <h2>Phan Lê Mỹ Huyền</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <h1>Thông tin cá nhân</h1>
+      
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Sinh viên K50 Đại học Sư Phạm TP.HCM</h1>
+    <p>Họ và tên: Phan Lê Mỹ Huyền</p><p>MSSV: 50.01.104.067</p>
+    <p>Lớp: K50.CNTT.D</p>
+    <p>Giới tính: Nữ</p> 
+    <p>Sở thích: chơi game, nghe nhạc, đọc sách</p>
+    <p>Email: chuphidht123@gmai.com</p>
+    <p>Địa chỉ: 194/33 Đ. Đỗ Ngọc Thạnh phường 12 quận 5</p>
+    <p>SĐT: 0332039187</p>
+
+    
+   
+  </article>
+</section>
+
+<footer>
+  
+</footer>
+
+</body>
+</html>
